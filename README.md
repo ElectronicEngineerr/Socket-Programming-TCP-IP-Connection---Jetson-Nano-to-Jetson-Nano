@@ -10,7 +10,7 @@ First of all, we need two jetson nanos and two monitors while doing this. Becaus
 
 First of all, we will use the socket library that comes by default when we install the sdk manager. Our most important condition while doing this process is that the two jetson nanons must be in the same network.
 
->>>SENDER<<<
+>>>SENDER>>>
 ```
 Server IP address and port number
 IP_ADDRESS = '192.168.137.217'
@@ -41,7 +41,9 @@ Next, the user is prompted to enter the message they want to send, and this mess
 The entire code allows a client to connect to a server and send the messages entered by the user to the server.
 
 
->>>RECEIVER<<<
+>>>RECEIVER>>>
+
+
 import threading
 import socket
 
